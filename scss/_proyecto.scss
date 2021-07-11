@@ -1,0 +1,23 @@
+.fondoProyecto{
+    @extend %fondos;
+    background-image: url(../img/fondoProyecto.jpg);
+}
+
+.navegadorTotal{
+    background-color: white;
+}
+
+.tituloProyecto{
+    text-align: center;
+    color: #2e2e2e;
+    line-height: 2.2;
+}
+
+@media only screen and (max-width: 600px){
+
+    .tituloProyecto{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+    }
+}

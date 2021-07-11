@@ -1,0 +1,27 @@
+@import "../scss/_menu.scss";
+@import "../scss/_section.scss";
+@import "../scss/_footer.scss";
+@import "../scss/_nosotros.scss";
+@import "../scss/_divisor.scss";
+@import "../scss/_contacto.scss";
+@import "../scss/_proyecto.scss";
+@import "../scss/_catalogo.scss";
+
+%fondos{
+    width: 98vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Cinzel', serif;
+}
+
+

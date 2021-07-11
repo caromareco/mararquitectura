@@ -1,0 +1,48 @@
+.nosotros{
+    padding: 2%;
+    width: 100%;
+    display: block;
+    border: 2px solid #594A3C;
+}
+
+.nosotros img{
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+}
+
+.nosotros h3{
+    text-align: center;
+    font-size: 40px;
+}
+
+.nosotrosTexto{
+    display: flex;
+    margin: 0%;
+}
+
+.nosotrosTexto p{
+    margin: 2%;
+}
+
+@media only screen and (max-width: 600px){
+    .nosotros h3{
+        font-size: 30px;
+    } 
+
+    .nosotrosTexto p{
+        font-size: 10px;
+    }
+
+    .nosotrosTexto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nosotrosTexto img {
+        width: 150px;
+        height: 150px;
+    }
+
+}

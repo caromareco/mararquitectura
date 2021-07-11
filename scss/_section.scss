@@ -1,0 +1,66 @@
+.card-title{
+    font-weight: bold;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card-body, p .card-body{
+    text-align: center;
+}
+
+.card-group{
+    margin: 50px 30px 50px 50px;
+}
+
+.card img:hover{
+    transform:scale(1.2);
+    transition: all 500ms ease-in-out; // Safari and Chrome 
+}
+
+h2{
+    margin-top: 50px;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(
+        to right,
+        rgb(255, 255, 255),
+        rgb(124, 124, 124),
+        rgb(0, 0, 0),
+        );
+    background-size: 110vw;
+    animation: sliding 30s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@keyframes sliding {
+    to {
+        background-position: -2000vw;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    h5.card-title{
+        font-size: 15px;
+    }
+
+    p.card-text{
+        font-size: 0.5em;
+        text-align: center;
+    }
+
+    .card-group {
+        margin: 25px 37px 40px 38px;
+    }
+
+    h2
+    {
+        margin-top: 30px;
+    }
+
+    .card-body {
+        padding: 0.5rem 0.5rem;
+    }
+
+}

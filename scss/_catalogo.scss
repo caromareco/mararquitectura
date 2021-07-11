@@ -1,0 +1,57 @@
+.fotosCatalogo img{
+    width: 100%;
+    border-radius: 18px;
+}
+
+.fotosCatalogo img:hover{
+    opacity: 0.6;
+}
+
+.fotosCatalogo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+    object-position: center;
+}
+
+.fotoCatalogo6{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.tituloCatalogo{
+    text-align: center;
+    color: #2e2e2e;
+    line-height: 2.2;
+}
+
+.tituloCatalogo h1{
+    margin-bottom: 0em;
+}
+
+.fondoCatalogo{
+    @extend %fondos;
+    height: 100vh;
+    background-image: url(../img/fondoNosotros.jpg);
+}
+
+@media only screen and (max-width: 600px){
+    .tituloCatalogo{
+		font-size: 15px;
+		text-align: center;
+		margin-top: 10px;
+	}
+    .fotosCatalogo{
+        padding-left: 10px;
+        padding-right: 10px;
+        grid-gap: 5px;
+    }
+
+}
